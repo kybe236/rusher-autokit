@@ -21,7 +21,8 @@ public class ExampleModule extends ToggleableModule {
 	public ExampleModule() {
 		super("AutoKit", "Auto Kit", ModuleCategory.CLIENT);
 		this.registerSettings(
-				this.delay
+				this.delay,
+				this.kit
 		);
 	}
 
